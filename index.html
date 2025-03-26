@@ -1,105 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artfacts Interactive</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="scripts.js"></script>
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <div class="logo">Artfacts</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>Designs That Feels Just Right.</h1>
-        <p>We create designs that feel like uncovering something special...</p>
-        <div class="buttons">
-            <a href="#portfolio" class="btn">Explore our work</a>
-            <a href="#contact" class="btn btn-alt">Let's create</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>Not Just Another Studio</h2>
-        <p>An Experience Worth Finding</p>
-        <p>The best discoveries aren’t loud. They don’t demand attention...</p>
-        <a href="#services" class="btn">Discover what makes us different</a>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>What We Craft</h2>
-        <ul>
-            <li><strong>UX Design</strong> - Experiences worth finding</li>
-            <li><strong>Web Design</strong> - Digital spaces designed for clarity and depth</li>
-            <li><strong>User Research</strong> - Helps you in search of better design decisions</li>
-            <li><strong>Front-End Engineering</strong> - Digital spaces designed for clarity and depth</li>
-            <li><strong>Enterprise Design</strong> - Simplifying complex business needs</li>
-            <li><strong>Data Visualization</strong> - Humanizing data with engaging visuals</li>
-            <li><strong>Next-Gen Interfaces</strong> - Designing for voice, speech, AR, VR</li>
-            <li><strong>AI-Driven Design</strong> - Smart interfaces that adapt and grow</li>
-            <li><strong>Brand Identity & Strategy</strong> - A foundation built to last</li>
-        </ul>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <h2>Our Portfolio</h2>
-        <p>A Collection of Thoughtfully Crafted Works</p>
-        <div class="portfolio-items">
-            <div class="portfolio-item">IADURS - Financial Management Solution</div>
-            <div class="portfolio-item">Dataminibus Designer - No-Code Data Pipeline Builder</div>
-            <div class="portfolio-item">IADURS - Remittance Workflow Management</div>
-        </div>
-        <a href="#" class="btn">See more of our works</a>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>Trusted by Those Who Value Thoughtful Design</h2>
-        <blockquote>
-            <p>"Artfacts Interactive didn’t just design for us — they understood us..."</p>
-            <cite>Narasimman Rajendran, VP Asia</cite>
-        </blockquote>
-        <blockquote>
-            <p>"Seamless collaboration, deep research, and intuitive design..."</p>
-            <cite>Narasimman Rajendran, VP Asia</cite>
-        </blockquote>
-    </section>
-
-    <!-- Call to Action Section -->
-    <section class="cta">
-        <h2>Want to see how we can bring craftsmanship to your project?</h2>
-        <a href="#contact" class="btn">Start a Project</a>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <h3>Artfacts</h3>
-            <p>We blend design, research, and technology to create intuitive and impactful user experiences.</p>
-            <p>Contact: <a href="mailto:hello@artfactsinteractive">hello@artfactsinteractive</a></p>
-            <p>Location: Bangalore, India</p>
-            <div class="social-links">
-                <a href="#">LinkedIn</a>
-                <a href="#">Instagram</a>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div class="titlebar">
+            <div class="nav_container">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156.4446" height="40" viewBox="0 0 156.4446 40">
+                        <path transform="matrix(1 0 0 1 0 0)" d="M27.2352 29.2962L28.2334 28.011C28.4672 27.7054 28.5121 27.301 28.3413 26.9595L15.1318 0.545975C14.7631 -0.181992 13.72 -0.181992 13.3513 0.545975L0.105853 27.0134C-0.0649986 27.3549 -0.0290275 27.7684 0.213761 28.0649L1.21189 29.3501C1.66149 29.9253 2.56071 29.8354 2.88443 29.1883L7.24564 20.4707C7.61432 19.7427 8.6574 19.7427 9.02608 20.4707L12.0834 26.591C12.2273 26.8696 12.2273 27.2022 12.0834 27.4808L7.54237 36.5579C7.37152 36.8994 7.40749 37.3128 7.65028 37.6094L9.40375 39.8652L9.67352 40L13.3423 32.6574C13.711 31.9294 14.7541 31.9294 15.1228 32.6574L18.7916 40L18.9534 39.9191L20.7968 37.5555C21.0306 37.2499 21.0756 36.8455 20.9047 36.504L16.3907 27.4718C16.2468 27.1932 16.2468 26.8606 16.3907 26.582L19.457 20.4527C19.8257 19.7248 20.8688 19.7248 21.2374 20.4527L25.5717 29.1164C25.8954 29.7725 26.7946 29.8624 27.2442 29.2782L27.2352 29.2962ZM13.3423 21.3964L10.276 15.2761C10.1321 14.9975 10.1321 14.6649 10.276 14.3863L13.3423 8.26602C13.711 7.53805 14.7541 7.53805 15.1228 8.26602L18.1891 14.3863C18.333 14.6649 18.333 14.9975 18.1891 15.2761L15.1228 21.3964C14.7541 22.1244 13.711 22.1244 13.3423 21.3964ZM90.6057 29.772C90.3556 29.772 90.1611 29.5775 90.1611 29.3274L90.1611 18.4346L87.7528 18.4346C87.5027 18.4346 87.3082 18.2401 87.3082 17.99L87.3082 15.9893C87.3082 15.7392 87.5027 15.5447 87.7528 15.5447L90.1703 15.5447C90.3556 11.8952 92.7916 9.81113 96.9228 9.81113C97.1729 9.81113 97.3674 10.0056 97.3674 10.2557L97.3674 12.0156C97.3674 12.2657 97.1729 12.4602 96.9228 12.4602C94.5701 12.4602 93.3381 13.4698 93.1899 15.5447L96.9228 15.5447C97.1729 15.5447 97.3674 15.7392 97.3674 15.9893L97.3674 17.99C97.3674 18.2401 97.1729 18.4346 96.9228 18.4346L93.1807 18.4346L93.1807 29.3274C93.1807 29.5775 92.9862 29.772 92.7361 29.772L90.6057 29.772ZM60.3822 29.7719C60.2062 29.7719 60.0487 29.67 59.9746 29.5126L57.7424 24.6775L48.0722 24.6775L45.84 29.5126C45.7659 29.67 45.6084 29.7719 45.4324 29.7719L43.1075 29.7719C42.9593 29.7719 42.8111 29.6978 42.737 29.5681C42.6536 29.4384 42.6444 29.281 42.7092 29.142L51.3234 10.4687C51.3975 10.3112 51.555 10.2094 51.7309 10.2094L54.0558 10.2094C54.2318 10.2094 54.3893 10.3112 54.4634 10.4687L63.0498 29.142C63.1146 29.281 63.1054 29.4384 63.022 29.5681C62.9387 29.6978 62.7997 29.7719 62.6515 29.7719L60.3822 29.7719ZM85.1875 30.1792C80.723 30.1792 78.5555 27.8636 78.5555 23.0933L78.5555 18.4435L76.2028 18.4435C75.9527 18.4435 75.7582 18.249 75.7582 17.9989L75.7582 17.0912C75.7582 16.9708 75.8045 16.8596 75.8879 16.7763L79.9449 12.6915C80.0283 12.6081 80.1394 12.5618 80.2598 12.5618L81.1398 12.5618C81.3899 12.5618 81.5844 12.7563 81.5844 13.0064L81.5844 15.5536L85.1968 15.5536C85.4469 15.5536 85.6414 15.7481 85.6414 15.9982L85.6414 17.9989C85.6414 18.249 85.4469 18.4435 85.1968 18.4435L81.5844 18.4435L81.5844 23.0933C81.5844 26.0574 82.6311 27.2615 85.1968 27.2615C85.4469 27.2615 85.6414 27.456 85.6414 27.7061L85.6414 29.7346C85.6414 29.9847 85.4469 30.1792 85.1968 30.1792L85.1875 30.1792ZM141.837 30.1792C137.372 30.1792 135.205 27.8636 135.205 23.0933L135.205 18.4435L132.852 18.4435C132.602 18.4435 132.408 18.249 132.408 17.9989L132.408 17.0912C132.408 16.9708 132.454 16.8596 132.537 16.7763L136.594 12.6915C136.678 12.6081 136.789 12.5618 136.909 12.5618L137.789 12.5618C138.039 12.5618 138.234 12.7563 138.234 13.0064L138.234 15.5536L141.846 15.5536C142.096 15.5536 142.291 15.7481 142.291 15.9982L142.291 17.9989C142.291 18.249 142.096 18.4435 141.846 18.4435L138.234 18.4435L138.234 23.0933C138.234 26.0574 139.281 27.2615 141.846 27.2615C142.096 27.2615 142.291 27.456 142.291 27.7061L142.291 29.7346C142.291 29.9847 142.096 30.1792 141.846 30.1792L141.837 30.1792ZM56.4363 21.8431L52.9165 14.2293L49.3968 21.8431L56.4363 21.8431ZM65.2448 29.772C64.9947 29.772 64.8002 29.5775 64.8002 29.3274L64.8002 15.9893C64.8002 15.7392 64.9947 15.5447 65.2448 15.5447L67.0881 15.5447C67.3196 15.5447 67.5142 15.73 67.5327 15.9615L67.7087 18.555C69.0332 16.3691 71.0802 15.1464 73.5163 15.1464C73.7664 15.1464 73.9609 15.3409 73.9609 15.591L73.9609 17.8326C73.9609 18.0827 73.7664 18.2772 73.5163 18.2772C70.0058 18.2772 67.8291 21.0652 67.8291 25.539L67.8291 29.3274C67.8291 29.5775 67.6346 29.772 67.3845 29.772L65.2448 29.772ZM105.833 30.1796C101.915 30.1796 98.9606 26.9655 98.9606 22.6955C98.9606 18.4254 101.915 15.1557 105.833 15.1557C107.816 15.1557 109.548 15.9894 110.752 17.4806L110.919 15.9616C110.946 15.7393 111.132 15.5633 111.363 15.5633L113.206 15.5633C113.456 15.5633 113.651 15.7578 113.651 16.0079L113.651 29.346C113.651 29.5961 113.456 29.7906 113.206 29.7906L111.363 29.7906C111.132 29.7906 110.946 29.6146 110.919 29.3923L110.77 27.8825C109.566 29.3645 107.825 30.1889 105.833 30.1889L105.833 30.1796ZM123.803 30.1796C119.57 30.1796 116.374 26.9655 116.374 22.6955C116.374 18.4254 119.57 15.1557 123.803 15.1557C127.341 15.1557 130.129 17.2213 131.083 20.5466C131.12 20.6762 131.092 20.8244 131.009 20.9356C130.926 21.0467 130.796 21.1116 130.657 21.1116L128.443 21.1116C128.258 21.1116 128.091 21.0004 128.027 20.8244C127.341 19.0553 125.729 17.9623 123.803 17.9623C121.246 17.9623 119.394 19.9445 119.394 22.6677C119.394 25.3909 121.246 27.3453 123.803 27.3453C125.776 27.3453 127.406 26.2523 128.054 24.4924C128.119 24.3164 128.286 24.196 128.471 24.196L130.685 24.196C130.824 24.196 130.954 24.2608 131.037 24.372C131.12 24.4832 131.148 24.6314 131.111 24.761C130.157 28.1048 127.35 30.1796 123.803 30.1796ZM150.739 30.1796C146.988 30.1796 144.551 28.4753 144.218 25.6224C144.199 25.4928 144.246 25.3724 144.329 25.2705C144.413 25.1778 144.533 25.1223 144.663 25.1223L146.691 25.1223C146.904 25.1223 147.089 25.2797 147.126 25.4928C147.386 26.9285 148.608 27.6602 150.767 27.6602C152.313 27.6602 153.527 26.8451 153.527 25.8077C153.527 24.4276 152.175 24.1127 149.961 23.7236C147.59 23.2975 144.644 22.7788 144.644 19.5184C144.644 17.0268 147.071 15.1557 150.294 15.1557C153.833 15.1557 156.074 16.8878 156.315 19.7778C156.324 19.8982 156.287 20.0279 156.194 20.1112C156.111 20.2038 155.991 20.2502 155.87 20.2502L153.897 20.2502C153.666 20.2502 153.471 20.0742 153.453 19.8333C153.351 18.4347 152.193 17.6288 150.266 17.6288C148.794 17.6288 147.59 18.4625 147.59 19.4814C147.59 20.7503 148.877 21.0282 150.98 21.3709C153.416 21.7692 156.445 22.2601 156.445 25.7799C156.445 28.3271 154.046 30.1704 150.748 30.1704L150.739 30.1796ZM106.389 17.9623C103.796 17.9623 101.98 19.8982 101.98 22.6677C101.98 25.4372 103.833 27.3453 106.389 27.3453C108.946 27.3453 110.613 25.465 110.613 22.6677C110.613 19.8704 108.872 17.9623 106.389 17.9623Z" fill-rule="evenodd" fill="rgb(255, 255, 255)"/>
+                    </svg>                    
+                </div>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <button class="btn secondary_white">Contact</button>
+                </nav>
             </div>
         </div>
-        <p>&copy; 2025 Artfacts Interactive Private Limited. All rights reserved.</p>
-    </footer>
-</body>
+
+        <header>
+            <section class="hero">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="120" viewBox="0 0 85 120">
+                    <path transform="matrix(1 0 0 1 0 0)" d="M81.3865 87.8886L84.3692 84.033C85.0678 83.1163 85.2022 81.9031 84.6917 80.8785L45.218 1.63793C44.1163 -0.545975 40.9992 -0.545975 39.8975 1.63793L0.316317 81.0403C-0.194234 82.0648 -0.0867424 83.3051 0.638778 84.1948L3.62145 88.0503C4.96501 89.7759 7.65213 89.5063 8.61949 87.565L21.652 61.4121C22.7537 59.2282 25.8708 59.2282 26.9725 61.4121L36.1087 79.7731C36.5386 80.6089 36.5386 81.6065 36.1087 82.4423L22.5387 109.674C22.0282 110.698 22.1357 111.938 22.8612 112.828L28.1011 119.596L28.9072 120L39.8706 97.9723C40.9723 95.7884 44.0894 95.7884 45.1911 97.9723L56.1545 120L56.6382 119.757L62.1468 112.666C62.8454 111.75 62.9798 110.536 62.4692 109.512L48.9799 82.4153C48.55 81.5795 48.55 80.5819 48.9799 79.7461L58.143 61.3582C59.2447 59.1743 62.3618 59.1743 63.4635 61.3582L76.4154 87.3493C77.3827 89.3175 80.0698 89.5872 81.4134 87.8346L81.3865 87.8886ZM39.8706 64.1892L30.7076 45.8282C30.2776 44.9924 30.2776 43.9948 30.7076 43.159L39.8706 24.7981C40.9723 22.6142 44.0894 22.6142 45.1911 24.7981L54.3542 43.159C54.7841 43.9948 54.7841 44.9924 54.3542 45.8282L45.1911 64.1892C44.0894 66.3731 40.9723 66.3731 39.8706 64.1892Z" fill-rule="nonzero" fill="rgb(255, 255, 255)"/>
+                </svg>
+                <h1>Designs That Feels Just Right.</h1>
+                <p>We create designs that feel like uncovering something special. something that resonates, lingers, and leaves an impression.</p>
+
+                <section class="actions">
+                    <button class="btn secondary_white">Explore our work</button>
+                    <button class="btn primary">Let’s create</button>
+                </section>
+            </section>
+        </header>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
